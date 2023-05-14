@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #eeeeee;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    height:100%;
+    width: fit-content;
+    margin: 50px;
+}
+
+.squares{
+    height: 150px;
+    width: 150px;
+    background-color: #333333;
+    margin: 20px;
+}
+
+.row {
+    display: inline-block;
+}
+
+.lightSquares {
+    background-color: #999999;
+}
